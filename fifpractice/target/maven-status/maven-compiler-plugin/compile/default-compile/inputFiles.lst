@@ -1,0 +1,10 @@
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/FifpracticeApplication.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/controller/EquipmentController.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/controller/UserController.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/exception/GlobalExceptionHandler.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/model/Equipment.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/model/User.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/repository/EquipmentRepository.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/repository/UserRepository.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/service/EquipmentService.java
+/Users/christopheralexander/Downloads/fifpractice/src/main/java/com/fifgroup/fifpractice/service/UserService.java

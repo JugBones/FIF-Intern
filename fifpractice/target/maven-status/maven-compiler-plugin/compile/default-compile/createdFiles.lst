@@ -1,0 +1,10 @@
+com/fifgroup/fifpractice/service/UserService.class
+com/fifgroup/fifpractice/model/User.class
+com/fifgroup/fifpractice/controller/EquipmentController.class
+com/fifgroup/fifpractice/FifpracticeApplication.class
+com/fifgroup/fifpractice/model/Equipment.class
+com/fifgroup/fifpractice/controller/UserController.class
+com/fifgroup/fifpractice/repository/UserRepository.class
+com/fifgroup/fifpractice/service/EquipmentService.class
+com/fifgroup/fifpractice/exception/GlobalExceptionHandler.class
+com/fifgroup/fifpractice/repository/EquipmentRepository.class

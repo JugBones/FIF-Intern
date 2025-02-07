@@ -1,0 +1,5 @@
+com/fifgroup/fifpractice/controller/UserControllerTest.class
+com/fifgroup/fifpractice/controller/EquipmentControllerTest.class
+com/fifgroup/fifpractice/FifpracticeApplicationTests.class
+com/fifgroup/fifpractice/service/UserServiceTest.class
+com/fifgroup/fifpractice/service/EquipmentServiceTest.class
