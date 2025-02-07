@@ -8,8 +8,12 @@
 - User can have multiple Equipment (One to many)
 - Many Equipment can belong to one user (Many to one)
 
-## WHAT YOU CAN DO (Using POSTMAN):
+## WHAT YOU CAN DO:
 - Insert User data first, then insert equipment data, this process will be stored to the database
 - Get the data from the database
 - Update the data
 - Delete the data
+
+## TESTING TOOLS:
+- POSTMAN for testing the crud operations
+- JUnit and Mockito for unit testing
