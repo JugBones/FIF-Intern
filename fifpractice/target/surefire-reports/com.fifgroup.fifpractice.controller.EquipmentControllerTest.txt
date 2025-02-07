@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.fifgroup.fifpractice.controller.EquipmentControllerTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s -- in com.fifgroup.fifpractice.controller.EquipmentControllerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s -- in com.fifgroup.fifpractice.controller.EquipmentControllerTest
