@@ -513,3 +513,104 @@ java.lang.IllegalArgumentException: Request header is too large
 2025-02-07T16:43:09.110+07:00  INFO 44015 --- [fifpractice] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-02-07T16:43:09.116+07:00  INFO 44015 --- [fifpractice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-02-07T16:43:09.135+07:00  INFO 44015 --- [fifpractice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-07T16:46:24.792+07:00  INFO 46197 --- [fifpractice] [main] c.f.fifpractice.FifpracticeApplication   : Starting FifpracticeApplication using Java 23.0.2 with PID 46197 (/Users/christopheralexander/Documents/FIF-Intern/fifpractice/target/classes started by christopheralexander in /Users/christopheralexander/Documents/FIF-Intern/fifpractice)
+2025-02-07T16:46:24.793+07:00 DEBUG 46197 --- [fifpractice] [main] c.f.fifpractice.FifpracticeApplication   : Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-07T16:46:24.794+07:00  INFO 46197 --- [fifpractice] [main] c.f.fifpractice.FifpracticeApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-02-07T16:46:25.193+07:00  INFO 46197 --- [fifpractice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-07T16:46:25.232+07:00  INFO 46197 --- [fifpractice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2025-02-07T16:46:25.563+07:00  INFO 46197 --- [fifpractice] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-07T16:46:25.586+07:00  INFO 46197 --- [fifpractice] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-07T16:46:25.587+07:00  INFO 46197 --- [fifpractice] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-07T16:46:25.627+07:00  INFO 46197 --- [fifpractice] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-07T16:46:25.627+07:00  INFO 46197 --- [fifpractice] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 790 ms
+2025-02-07T16:46:25.732+07:00  INFO 46197 --- [fifpractice] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-07T16:46:25.773+07:00  INFO 46197 --- [fifpractice] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-07T16:46:25.795+07:00  INFO 46197 --- [fifpractice] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-07T16:46:25.985+07:00  INFO 46197 --- [fifpractice] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-07T16:46:26.006+07:00  INFO 46197 --- [fifpractice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-07T16:46:26.159+07:00  INFO 46197 --- [fifpractice] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ae5bd34
+2025-02-07T16:46:26.160+07:00  INFO 46197 --- [fifpractice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-07T16:46:26.201+07:00  WARN 46197 --- [fifpractice] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-07T16:46:26.202+07:00  WARN 46197 --- [fifpractice] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-07T16:46:26.214+07:00  INFO 46197 --- [fifpractice] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-07T16:46:26.795+07:00  INFO 46197 --- [fifpractice] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-07T16:46:26.862+07:00  INFO 46197 --- [fifpractice] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07T16:46:27.125+07:00  WARN 46197 --- [fifpractice] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-07T16:46:27.358+07:00  INFO 46197 --- [fifpractice] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-07T16:46:27.365+07:00  INFO 46197 --- [fifpractice] [main] c.f.fifpractice.FifpracticeApplication   : Started FifpracticeApplication in 2.869 seconds (process running for 3.111)
+2025-02-07T16:46:29.409+07:00  INFO 46197 --- [fifpractice] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-07T16:46:29.416+07:00  INFO 46197 --- [fifpractice] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-07T16:46:29.420+07:00  INFO 46197 --- [fifpractice] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07T16:46:29.423+07:00  INFO 46197 --- [fifpractice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-07T16:46:29.429+07:00  INFO 46197 --- [fifpractice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-07T16:46:38.666+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.FifpracticeApplicationTests        : Starting FifpracticeApplicationTests using Java 23.0.2 with PID 46317 (started by christopheralexander in /Users/christopheralexander/Documents/FIF-Intern/fifpractice)
+2025-02-07T16:46:38.667+07:00 DEBUG 46317 --- [fifpractice] [main] c.f.f.FifpracticeApplicationTests        : Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-07T16:46:38.668+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.FifpracticeApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-02-07T16:46:39.317+07:00  INFO 46317 --- [fifpractice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-07T16:46:39.353+07:00  INFO 46317 --- [fifpractice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2025-02-07T16:46:39.627+07:00  INFO 46317 --- [fifpractice] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-07T16:46:39.664+07:00  INFO 46317 --- [fifpractice] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-07T16:46:39.685+07:00  INFO 46317 --- [fifpractice] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-07T16:46:39.882+07:00  INFO 46317 --- [fifpractice] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-07T16:46:39.902+07:00  INFO 46317 --- [fifpractice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-07T16:46:40.037+07:00  INFO 46317 --- [fifpractice] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5834198f
+2025-02-07T16:46:40.038+07:00  INFO 46317 --- [fifpractice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-07T16:46:40.069+07:00  WARN 46317 --- [fifpractice] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-07T16:46:40.070+07:00  WARN 46317 --- [fifpractice] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-07T16:46:40.084+07:00  INFO 46317 --- [fifpractice] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-07T16:46:40.683+07:00  INFO 46317 --- [fifpractice] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-07T16:46:40.741+07:00  INFO 46317 --- [fifpractice] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07T16:46:41.078+07:00  WARN 46317 --- [fifpractice] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-07T16:46:41.328+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.FifpracticeApplicationTests        : Started FifpracticeApplicationTests in 2.892 seconds (process running for 3.642)
+2025-02-07T16:46:41.822+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : Fetching user with ID: 123
+2025-02-07T16:46:41.825+07:00 ERROR 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : User with ID: 123 not found
+2025-02-07T16:46:41.839+07:00  WARN 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : Attempting to delete user with ID: 123
+2025-02-07T16:46:41.840+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : Successfully deleted user with ID: 123
+2025-02-07T16:46:41.844+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : Updating user with ID: 123
+2025-02-07T16:46:41.845+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : User with ID: 123 updated successfully
+2025-02-07T16:46:41.851+07:00  WARN 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : Attempting to delete user with ID: 123
+2025-02-07T16:46:41.851+07:00 ERROR 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : User with ID: 123 not found. Deletion failed
+2025-02-07T16:46:41.854+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : Updating user with ID: 123
+2025-02-07T16:46:41.854+07:00 ERROR 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : User with ID: 123 not found. Update failed
+2025-02-07T16:46:41.856+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : Fetching user with ID: 123
+2025-02-07T16:46:41.859+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.UserController          : Creating user with ID: 123
+2025-02-07T16:46:41.900+07:00  WARN 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Attempting to delete equipment ID: 1 for user ID: 12345
+2025-02-07T16:46:41.901+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Successfully deleted equipment ID: 1 for user ID: 12345
+2025-02-07T16:46:41.903+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Uploading new equipment for user ID: 12345
+2025-02-07T16:46:41.904+07:00 ERROR 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : There is no User with ID 12345
+2025-02-07T16:46:41.907+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Fetching equipment ID: 1 for user ID: 12345
+2025-02-07T16:46:41.907+07:00  WARN 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Equipment ID: 1 not found or does not belong to user ID: 12345
+2025-02-07T16:46:41.911+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Fetching all equipment for user ID: 12345
+2025-02-07T16:46:41.914+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Fetching equipment ID: 1 for user ID: 12345
+2025-02-07T16:46:41.917+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Updating equipment ID: 1 for user ID: 12345
+2025-02-07T16:46:41.917+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Successfully updated equipment ID: 1 for user ID: 12345
+2025-02-07T16:46:41.920+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.controller.EquipmentController     : Uploading new equipment for user ID: 12345
+2025-02-07T16:46:42.020+07:00  INFO 46317 --- [fifpractice] [main] c.f.fifpractice.service.UserService      : Saving user with ID: null
+2025-02-07T16:46:42.023+07:00  INFO 46317 --- [fifpractice] [main] c.f.fifpractice.service.UserService      : Fetching all users
+2025-02-07T16:46:42.025+07:00  WARN 46317 --- [fifpractice] [main] c.f.fifpractice.service.UserService      : Attempting to delete user with ID: 123
+2025-02-07T16:46:42.037+07:00  INFO 46317 --- [fifpractice] [main] c.f.fifpractice.service.UserService      : Successfully deleted user with ID: 123
+2025-02-07T16:46:42.039+07:00  INFO 46317 --- [fifpractice] [main] c.f.fifpractice.service.UserService      : Fetching user with ID: 123
+2025-02-07T16:46:42.128+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.service.EquipmentService           : Fetching equipment with ID: 1
+2025-02-07T16:46:42.131+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.service.EquipmentService           : Fetching all equipment for user ID: 12345
+2025-02-07T16:46:42.134+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.service.EquipmentService           : Successfully saved equipment with ID: 1
+2025-02-07T16:46:42.137+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.service.EquipmentService           : Deleted equipment with ID: 1
+2025-02-07T16:46:42.140+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.service.EquipmentService           : Attempting to update equipment ID: 1 for user ID: 12345
+2025-02-07T16:46:42.141+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.service.EquipmentService           : Updated file for equipment ID: 1
+2025-02-07T16:46:42.141+07:00  INFO 46317 --- [fifpractice] [main] c.f.f.service.EquipmentService           : Successfully updated equipment ID: 1
+2025-02-07T16:46:42.154+07:00  INFO 46317 --- [fifpractice] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07T16:46:42.156+07:00  INFO 46317 --- [fifpractice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-07T16:46:42.163+07:00  INFO 46317 --- [fifpractice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
