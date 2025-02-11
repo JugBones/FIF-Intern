@@ -1,4 +1,4 @@
-## This is a simple CRUD app that shows how a basic crud application works (inserting, showing, updating, and deleting data). The app demonstrate how to add a user and each user can have equipments 
+## This is a simple CRUD app that shows how a basic crud application works. The app demonstrate the flow of user and equipment creation, supported with functionalities for inserting, showing, updating, and deleting data. This app also supported by JWT Authentication for security.
 
 ## ENTITIES in the app:
 - User : with id, name, and address
