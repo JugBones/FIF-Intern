@@ -858,3 +858,8 @@ Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'z'
 2025-02-11T09:06:33.469+07:00  INFO 53205 --- [fifpractice] [http-nio-8080-exec-2] c.f.fifpractice.service.UserService      : Loading user by email: johndoe@example.com
 2025-02-11T09:06:33.634+07:00  INFO 53205 --- [fifpractice] [http-nio-8080-exec-2] c.f.f.controller.EquipmentController     : Fetching all equipment for user ID: 82fd1caa-8128-4c6b-9821-ea37d901b147
 2025-02-11T09:06:33.635+07:00  INFO 53205 --- [fifpractice] [http-nio-8080-exec-2] c.f.f.service.EquipmentService           : Fetching all equipment for user ID: 82fd1caa-8128-4c6b-9821-ea37d901b147
+2025-02-11T09:13:25.968+07:00  INFO 53205 --- [fifpractice] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-11T09:13:25.982+07:00  INFO 53205 --- [fifpractice] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-11T09:13:25.989+07:00  INFO 53205 --- [fifpractice] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-11T09:13:25.995+07:00  INFO 53205 --- [fifpractice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-11T09:13:26.008+07:00  INFO 53205 --- [fifpractice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
