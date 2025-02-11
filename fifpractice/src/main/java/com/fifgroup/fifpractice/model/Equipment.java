@@ -15,6 +15,7 @@ public class Equipment {
     private String type;
     private String color;
 
+    @JsonIgnore
     @Lob
     @Column(columnDefinition = "LONGBLOB")
     private byte[] fileData;

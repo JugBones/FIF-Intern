@@ -1,10 +1,17 @@
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/FifpracticeApplication.java
+/Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/controller/AuthController.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/controller/EquipmentController.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/controller/UserController.java
+/Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/dto/AuthRequest.java
+/Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/dto/AuthResponse.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/exception/GlobalExceptionHandler.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/model/Equipment.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/model/User.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/repository/EquipmentRepository.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/repository/UserRepository.java
+/Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/security/AuthService.java
+/Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/security/JwtFilter.java
+/Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/security/JwtUtil.java
+/Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/security/SecurityConfig.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/service/EquipmentService.java
 /Users/christopheralexander/Documents/FIF-Intern/fifpractice/src/main/java/com/fifgroup/fifpractice/service/UserService.java

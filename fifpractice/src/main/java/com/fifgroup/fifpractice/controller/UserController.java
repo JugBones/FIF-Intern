@@ -39,6 +39,13 @@ public class UserController {
         }
     }
 
+    @GetMapping("/email/{email}")
+    public ResponseEntity<User> getUserByEmail(@PathVariable String email) {
+        logger.info("Fetching user with Email: {}", email);
+        Optional<User> user = userService.getUserByEmail(email);
+        return user.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
     @PostMapping
     public User createUser(@RequestBody User user) {
         logger.info("Creating user with ID: {}", user.getIdNumber());
@@ -52,6 +59,8 @@ public class UserController {
         if (existingUser.isPresent()) {
             User user = existingUser.get();
             user.setName(updatedUser.getName());
+            user.setEmail(updatedUser.getEmail());
+            user.setPassword(updatedUser.getPassword());
             user.setAddress(updatedUser.getAddress());
             user.setBirthDate(updatedUser.getBirthDate());
             logger.info("User with ID: {} updated successfully", id);

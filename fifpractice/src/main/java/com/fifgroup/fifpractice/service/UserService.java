@@ -2,19 +2,30 @@ package com.fifgroup.fifpractice.service;
 
 import com.fifgroup.fifpractice.model.User;
 import com.fifgroup.fifpractice.repository.UserRepository;
-import org.springframework.stereotype.Service;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UserService {
+public class UserService implements UserDetailsService {
     private final UserRepository userRepository;
+    private final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
     private static final Logger logger = LogManager.getLogger(UserService.class);
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
+    }
+
+    public User registerUser(User user) {
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
+        return userRepository.save(user);
     }
 
     public List<User> getAllUsers() {
@@ -33,6 +44,11 @@ public class UserService {
         }
     }
 
+    public Optional<User> getUserByEmail(String email) {
+        logger.info("Fetching user with Email: {}", email);
+        return userRepository.findByEmail(email);
+    }
+
     public User saveUser(User user) {
         logger.info("Saving user with ID: {}", user.getIdNumber());
         return userRepository.save(user);
@@ -46,5 +62,19 @@ public class UserService {
         } else {
             logger.error("Failed to delete user. User with ID: {} not found", id);
         }
+    }
+
+    /**
+     * Loads user details for authentication by email (which acts as the username).
+     * This method is used by Spring Security for authentication.
+     */
+    @Override
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+        logger.info("Loading user by email: {}", email);
+        return userRepository.findByEmail(email)
+                .orElseThrow(() -> {
+                    logger.error("User not found with email: {}", email);
+                    return new UsernameNotFoundException("User not found with email: " + email);
+                });
     }
 }

@@ -1,3 +1,31 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Ignore compiled class files
+*.class
+
+# Ignore JAR and WAR files
+*.jar
+*.war
+
+# Ignore Maven and Gradle build directories
+/target/
+/build/
+
+# Ignore IntelliJ IDEA and Eclipse project files
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+# Ignore test reports
+/target/surefire-reports/
+/target/*.txt
+/target/*.xml
+
+# Ignore dependency caching
+/.m2/
+/.gradle/
+
